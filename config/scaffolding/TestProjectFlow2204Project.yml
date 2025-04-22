@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
   gitBranch: main
+services:
+- serviceName: project.testprojectflow2204.integrations:testFlow1
+  packages:
+  - name: TestProjectFlow2204Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2047
